@@ -1,10 +1,20 @@
-# --- PARTE 4: Ejercicio Final (Combinándolo todo) ---
-# 1. Pedimos el nombre al usuario
-usuario_nombre = input("Dime tu nombre: ")
+# ==============================================================================
+# EJERCICIO FINAL: EL PERFIL DEL PROGRAMADOR
+# Enunciado: Crea un programa que pida al usuario:
+# 1. Su nombre (Texto/String)
+# 2. Su edad (Número entero/Integer)
+# 3. Su estatura en metros (Número decimal/Float)
+# 4. Comprobar si es mayor de edad (Booleano: True si tiene 18 o más)
+# Finalmente, muestra un resumen con todos los datos en una sola frase.
+# ==============================================================================
 
-# 2. Pedimos la comida favorita
-comida_favorita = input("¿Cuál es tu comida favorita? ")
+#nombre = input("como te llamas? ")
+edad = bool(input("cual es tu edad? "))
+print(type(edad))
+#estatura = input("Dime tu estatura exacta ")
+#es_mayor = input("Eres mayor de edad? ")
 
-# 3. Mostramos el resultado usando una f-string
-# La 'f' permite que las llaves {} saquen el valor de las cajas
-print(f"Hola {usuario_nombre}, qué hambre me da saber que te gusta comer {comida_favorita}")
+#print(f"Nombre: {nombre}")
+print(f"Edad: {edad} ")
+#print(f"Estatura: {estatura}")
+#print(f"Es mayor de edad?: {es_mayor}")
