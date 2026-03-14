@@ -1,0 +1,7 @@
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", mul)
+print("Potencia:", potencia)
+print("División entera:", div_dec)
+print("División decimal:", div_ent)
+print("Módulo:", modulo)
